@@ -8,8 +8,14 @@
 
 |Platform|Supported|Version|
 | ------------------- | :-----------: | :-----------: |
-|Xamarin.iOS Unified|Yes|iOS 8.1+
-|Xamarin.Android|Yes|API 18+
+|Xamarin.iOS Unified|Yes|Any
+|Xamarin.Android|Yes|Any
+|Windows|Yes|8+
+|Windows Phone|Yes|8.1+
+|Xamarin.iOS Classic|Yes|Any
+|Xamarin.Mac Unified|Yes|Any
+|Xamarin.TVOS|Yes|Any
+|Xamarin.WatchOS|Yes|Any
 
 #### Usage
 
@@ -59,7 +65,7 @@ private void SegmentedControl_ItemTapped(object sender, int key)
 
 **Bindable Properties**
 
-#### Note this property always needs to be set, and should match the backgroundcolor of it's parent element.
+#### Note the ```UnselectedSegmentBackgroundColor``` property always needs to be set, and should match the backgroundcolor of it's parent element.
 ```UnselectedSegmentBackgroundColor```: Fill color for the all the unselected segment options (Color, default Transparent)
 
 ```TintColor```: Fill color for the control (Color, default #007AFF)
