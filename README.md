@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/Kirkify/SegmentedTabControl.png?label=ready&title=Ready)](https://waffle.io/Kirkify/SegmentedTabControl?utm_source=badge)
 # Segmented Tab Control Plugin for Xamarin Forms
 
 #### Setup
