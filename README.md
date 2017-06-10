@@ -30,13 +30,13 @@ xmlns:controls="clr-namespace:SegmentedTabControl.FormsPlugin;assembly=Segmented
 
 ```xml
 <controls:SegmentedTabControl UnselectedSegmentBackgroundColor="Blue" TintColor="#007AFF" SelectedSegment="0">
-  <controls:SegmentedControl.Children>
+  <controls:SegmentedTabControl.Children>
     <Label Text="Tab 1" />
     <Label Text="Tab 2" />
     <Label Text="Tab 3" />
     <Label Text="Tab 4" />
-  </controls:SegmentedControl.Children>
-</controls:SegmentedControl>
+  </controls:SegmentedTabControl.Children>
+</controls:SegmentedTabControl>
 ```
 
 #### Event handler
